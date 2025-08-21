@@ -1,0 +1,10 @@
+import java.util.scanner;
+
+public class AppointmentMaker{
+
+public Appointment(){
+
+}
+
+
+}
