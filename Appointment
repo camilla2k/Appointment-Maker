@@ -1,39 +1,50 @@
 public class Appointment
 {
-private String username;
-private String serviceType;
-private String day;
-private String time;
-private boolean flexible;
+  private String username;
+  private String serviceType;
+  private String day;
+  private String time;
+  private boolean flexible;
 public Appointment(String u, String t)
 {
-username = u;
-serviceType = t;
-day = "Monday";
-time = "12:00";
-flexible = true;
+  username = u;
+  serviceType = t;
+  day = "Monday";
+  time = "12:00";
+  flexible = true;
 }
 public Appointment(String u, String ty, String d, String ti, boolean f)
 {
-username = u;
-serviceType = ty;
-day = d;
-time = ti;
-flexible = f;
+  username = u;
+  serviceType = ty;
+  day = d;
+  time = ti;
+  flexible = f;
 }
 public String getUsername()
-{ return username; }
+  { return username; }
+
 public String getServiceType()
-{ return serviceType; }
+  { return serviceType; }
+
 public String getDay()
-{ return day; }
+  { return day; }
+
 public String getTime()
-{ return time; }
+  { return time; }
+
 public boolean getFlexibility()
-{ return flexible; }
+  { return flexible; }
+
 public void setDay(String d)
-{ day = d; }
+  { day = d; }
+
 public void setTime(String t)
-{ time = t; }
+  { time = t; }
+
 public String toString()
-{ return username + ": " + serviceType + " on " + day + " at " + time; }
+  { return username + ": " + serviceType + " on " + day + " at " + time; }
+
+
+
+
