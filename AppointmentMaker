@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class AppointmentMaker{
 private ArrayList[] appointments;
 private Array [] times;
-private array[] final;
+private ArrayList[] final;
 
 
 public static main( String[] args){
@@ -30,12 +30,20 @@ public static main( String[] args){
                             for( int j=0; j<times.length; i++){
                                 if(time[j].getDay()!=appointments[i].getDay() || time[j].getTime() != appointments[i].getTime())
 // use tiem obj to have 2 vars inside and check thitin array list if appoint is avaibile
-final.add("");
-}
-}
-                    }
+                                    final.add(appointments[i]);
+                                }else if()
+//check if anyelse on that day is free
+                                }
+                                
 
-
+            }else
+//inflexable ppl
+                 for( int h=0; h<times.length; i++){
+                                if(time[h].getDay()!=appointments[i].getDay() || time[h].getTime() != appointments[i].getTime()){
+                                    final.add(appointments[i];
+                                }else{
+                                 appointments.remove[i]
+                                }
 
 
 
